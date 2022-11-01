@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+</head>
+<body>
+ 
+    <form action="/dane">
+        <label for="imię">Imię</label>
+        <input value="imie" id="imię" type="text">
+        <br>
+        <label for="nazwisko">Nazwisko</label>
+        <input value="nazwisko" id="nazwisko" type="text">
+        <br>
+        <label for="age">Data urodzin</label>
+        <input value="data_urodzenia" type="date">
+        <br>
+        <textarea placeholder="wiadomość" rows="10" cols="20"></textarea>
+        <br>
+        <button>Wyślij</button>
+    </form>
+
+    <a href="index.html">
+        <button style="height: 490px";>Powrót</button>
+        </a>
+
+    <style>
+        input{
+            margin-top: 30px;
+        }
+
+        textarea{
+            margin-top: 30px
+        }
+
+        form{
+            padding: 20px;
+            border: 5px solid rgb(175, 222, 250);
+            width: 200px;
+        }
+
+        body{
+            background-image: url(images/sprinkles.png);
+            display: flex;
+            justify-content: center;
+
+        }
+
+    </style>
+
+</body>
+</html>
